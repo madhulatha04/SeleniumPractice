@@ -24,13 +24,10 @@ public class FirstTestcase {
             }
 
             WebElement userNameField = dr.findElement(By.id("username"));
-            userNameField.sendKeys("madhugaddam@performancetest.com");
-//            userNameField.sendKeys("madhulathagaddam@learningcurve.com");
-//            userNameField.sendKeys("madhulathagaddam@ksq.com");
+            userNameField.sendKeys("your-username");
 
             WebElement passwordField = dr.findElement(By.id("password"));
-            passwordField.sendKeys("R!$!ng25");
-//            passwordField.sendKeys("!nc0rrectP@$$");
+            passwordField.sendKeys("your-password");
 
             WebElement loginButton = dr.findElement(By.id("Login"));
             loginButton.click();
