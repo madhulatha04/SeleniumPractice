@@ -18,12 +18,10 @@ public class OpenLeads {
 
             // Login
             WebElement username = dr.findElement(By.id("username"));
-//            username.sendKeys("madhulathagaddam@learningcurve.com");  // Replace with actual username
-            username.sendKeys("madhulathagaddam@ksq.com");  // Replace with actual username
+            username.sendKeys("your-username");  // Replace with actual username
 
             WebElement password = dr.findElement(By.id("password"));
-//            password.sendKeys("R!$!ng25");  // Replace with actual password
-            password.sendKeys("!nc0rrectP@$$");  // Replace with actual password
+            password.sendKeys("your - password");  // Replace with actual password
 
             WebElement loginButton = dr.findElement(By.id("Login"));
             loginButton.click();
